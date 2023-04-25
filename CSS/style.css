@@ -145,6 +145,10 @@ section h2 {
   width: calc(100% - 20%);
   margin: 10px auto;
 }
+.swiper-wrapper {
+  /* background-color: red; */
+  /* padding: 20px; */
+}
 .swiper-slide img {
   height: 288px;
   width: 250px;
