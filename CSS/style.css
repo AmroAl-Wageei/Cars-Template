@@ -30,7 +30,7 @@ section {
 }
 section h2 {
   text-align: right;
-  margin-right: 170px;
+  margin-right: 155px;
   color: #f1f1f1;
   font-family: Cairo;
   font-size: 32px;
@@ -41,14 +41,14 @@ section h2 {
 
 /* ######## تسوق حسب نوع الوقود  ########*/
 
-.cars-type {
+.fuel-type {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 30px;
   width: calc(100% - 20%);
   margin: 10px auto;
 }
-.cars-type .box {
+.fuel-type .box {
   background-color: var(--sub-components);
   width: 100%;
   display: flex;
@@ -62,26 +62,96 @@ section h2 {
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 }
-.cars-type .box:hover {
+.fuel-type .box:hover {
   border: 2px solid var(--gradient-color);
 }
-.cars-type .box h1 {
+.fuel-type .box h1 {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 60px;
 }
-.cars-type .box h1:hover {
+.fuel-type .box h1:hover {
   color: var(--gradient-color);
 }
-.cars-type .box img {
+.fuel-type .box img {
   color: aqua;
 }
 
 @media (max-width: 767px) {
   section h2 {
     text-align: center;
-    margin-right: 0px;
+    margin-right: 20px;
   }
 }
 /* ######## تسوق حسب نوع الوقود  ########*/
+
+/* ######## TEST ########*/
+
+/* .sectiontest {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fff;
+  padding: 3px;
+}
+.card-image .card-img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 5px solid var(--gradient-color);
+}
+.card {
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  background-color: #1a1a1a;
+}
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  background-color: aqua;
+  padding: 40px;
+}
+
+.slide-content {
+  margin: 0 40px;
+}
+*/
+/* ######## TEST ########*/
+
+/* ######## تسوق حسب نوع السيارة  ########*/
+
+.swiper-cards {
+  width: calc(100% - 20%);
+  margin: 10px auto;
+}
+.swiper-slide img {
+  height: 288px;
+  width: 250px;
+  border-radius: 8px;
+}
+.swiper-slide img:hover {
+  border: 3px solid var(--gradient-color);
+}
+
+/* ######## تسوق حسب نوع السيارة  ########*/
