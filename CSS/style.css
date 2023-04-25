@@ -7,6 +7,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
+  direction: rtl;
 }
 
 :root {
@@ -15,6 +16,7 @@
   --background-color: #151515;
   --stroke-color: #787878;
   --sub-components: #1a1a1a;
+  --white-color: white;
   --padding: 10px;
   --margin: 10px;
 }
@@ -22,3 +24,64 @@
 body {
   background: #151515;
 }
+
+section {
+  width: 100%;
+}
+section h2 {
+  text-align: right;
+  margin-right: 170px;
+  color: #f1f1f1;
+  font-family: Cairo;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 60px;
+  letter-spacing: 0em;
+}
+
+/* ######## تسوق حسب نوع الوقود  ########*/
+
+.cars-type {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+  width: calc(100% - 20%);
+  margin: 10px auto;
+}
+.cars-type .box {
+  background-color: var(--sub-components);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white-color);
+  height: 189px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.cars-type .box:hover {
+  border: 2px solid var(--gradient-color);
+}
+.cars-type .box h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+}
+.cars-type .box h1:hover {
+  color: var(--gradient-color);
+}
+.cars-type .box img {
+  color: aqua;
+}
+
+@media (max-width: 767px) {
+  section h2 {
+    text-align: center;
+    margin-right: 0px;
+  }
+}
+/* ######## تسوق حسب نوع الوقود  ########*/
