@@ -28,6 +28,30 @@
 //   },
 // });
 
+//     <!-- <section class="sectiontest">
+//     <div class="slide-container swiper">
+//     <div class="slide-content">
+//       <div class="card-wrapper swiper-wrapper">
+//         <div class="card swiper-slide">
+//           <div class="image-content">
+//              <span class="overlay"> </span>
+//             <div class="card-image">
+//               <img
+//                 src="./images/Carstype/خارج الطرقات.png"
+//                 alt="cardtype-icon"
+//                 class="card-img"
+//               />
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//     <div class="swiper-button-next swiper-navBtn"></div>
+//     <div class="swiper-button-prev swiper-navBtn"></div>
+//     <div class="swiper-pagination"></div>
+//   </div>
+// </section> -->
+
 const swiperr = new Swiper(".swiper", {
   speed: 1000,
   spaceBetween: -50,
