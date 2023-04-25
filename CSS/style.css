@@ -328,5 +328,22 @@ section h2 {
   }
 }
 
-
 /* ######## Footer ########*/
+
+/* ######## Scroll bar ########*/
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--sub-components);
+  box-shadow: 0, 0, 10px, #ddd inset;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--gradient-color);
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--stroke-color);
+}
+/* ######## Scroll bar ########*/
