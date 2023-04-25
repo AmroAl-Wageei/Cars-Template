@@ -178,12 +178,14 @@ section h2 {
 }
 
 .cont_footer {
-  max-width: 1100px;
+  max-width: 100%;
   margin: auto;
 }
 .row_footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-right: 160px;
 }
 
 .col_footer {
@@ -286,7 +288,7 @@ section h2 {
 }
 
 .footer-botoom .divv {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -294,7 +296,7 @@ section h2 {
   color: var(--stroke-color);
 }
 .footer-botoom .divv .social {
-  margin-left: 100px;
+  margin-left: 40px;
 }
 .footer-botoom .divv .copy {
   margin-right: 70px;
@@ -325,23 +327,6 @@ section h2 {
     margin: 20px auto;
   }
 }
-@media (max-width: 470px) {
-  .footer {
-    background-color: var(--sub-components);
-    padding: 70px 0;
-    width: 90%;
-    font-family: "Dosis", sans-serif;
-    margin: auto;
-  }
 
-  .cont_footer {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  .all-footer {
-    background-color: var(--sub-components);
-    width: 100%;
-  }
-}
 
 /* ######## Footer ########*/
