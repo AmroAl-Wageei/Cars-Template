@@ -163,17 +163,22 @@ section h2 {
 }
 .banner-text {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
-  text-align: center;
+  top: 50%;
+  right: 50%;
+  transform: translate(80%, 100%);
   color: white;
-  padding: 20px;
+  -webkit-transform: translate(80%, 100%);
+  -moz-transform: translate(80%, 100%);
+  -ms-transform: translate(80%, 100%);
+  -o-transform: translate(80%, 100%);
 }
 .banner-text h4 {
   font-size: 26px;
   text-transform: uppercase;
   font-weight: bold;
+  margin: 0 auto;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .swiper-slide img {
