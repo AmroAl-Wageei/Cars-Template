@@ -599,17 +599,28 @@ header .search {
   left: 0;
   right: 0;
   background-color: var(--sub-components);
-  max-width: 80%;
-  margin: 0 auto;
+  max-width: 100%;
+  padding: 15px;
 
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  padding: 10px;
+  border-bottom: 2px solid var(--stroke-color);
 }
-.navbar .list ul li {
+
+.navbar .info {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+/* .navbar .list ul {
+  margin-left: 300px;
+} */
+.navbar .info .list ul li {
   display: inline-block;
   margin-left: 30px;
+  cursor: pointer;
+}
+.navbar .info .list ul li a {
+  color: var(--stroke-color);
   cursor: pointer;
 }
 /* .navbar .header {
@@ -622,7 +633,7 @@ header .search {
   z-index: 0;
 }
 @media (max-width: 845px) {
-  .navbar {
+  .navbar .info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -637,6 +648,20 @@ header .search {
 
   .navbar li {
     margin: 10px 0;
+  }
+  .hero-image .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+  }
+  /* .hero-image .content button {
+    margin-right: 0;
+  } */
+  .hero-image .content div {
+    margin-bottom: 10px;
   }
 }
 
@@ -664,4 +689,75 @@ header .search {
 
 button:hover {
   background-color: var(--gradient-color);
+}
+.hero-image {
+  position: relative;
+}
+.hero-image .content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly; */
+  position: absolute;
+  /* margin-top: 20%; */
+  top: 60%;
+  left: 50%;
+
+  color: white;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.hero-image .social {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  color: white;
+}
+.hero-image .social div {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.hero-image .social div a {
+  color: var(--stroke-color);
+}
+.hero-image .social div a:hover {
+  color: var(--gradient-color);
+}
+.hero-image .content div {
+  margin-bottom: 30px;
+}
+.hero-image .content h1 {
+  color: white;
+  font-family: Almarai;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero-image .content p {
+  font-family: Cairo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.hero-image .content button {
+  background: linear-gradient(0deg, #272727, #272727),
+    linear-gradient(180deg, #d65b5b 20.68%, rgba(255, 158, 44, 0) 203.3%);
+  width: 100px;
+  height: 69px;
+  width: 237px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  border: 2px solid var(--gradient-color);
+  color: var(--gradient-color);
+  cursor: pointer;
+  margin-right: 150px;
 }
