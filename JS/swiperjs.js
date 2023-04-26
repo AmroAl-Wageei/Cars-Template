@@ -52,10 +52,11 @@
 //   </div>
 // </section> -->
 
-const swiperr = new Swiper(".swiper", {
+const swiper = new Swiper(".swiper", {
   speed: 700,
   spaceBetween: -20,
   slidesPerView: 5,
+  loop: true,
   centerSlide: "true",
   fade: "true",
   grabCursor: "true",

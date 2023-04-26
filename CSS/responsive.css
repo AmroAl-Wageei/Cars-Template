@@ -8,3 +8,36 @@
 }
 
 /* ######## تسوق حسب نوع الوقود  ########*/
+
+/* ######## Footer  ########*/
+
+@media (max-width: 767px) {
+  .col_footer {
+    width: 50%;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 574px) {
+  .col_footer {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 788px) {
+  .footer-botoom .divv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .footer-botoom .divv .social {
+    text-align: center;
+    margin: 20px auto;
+  }
+}
+/* ######## Footer  ########*/
