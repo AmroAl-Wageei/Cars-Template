@@ -62,6 +62,7 @@ section h2 {
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  cursor: pointer;
 }
 .fuel-type .box:hover {
   border: 2px solid var(--gradient-color);
@@ -344,6 +345,7 @@ section h2 {
   font-size: 20px;
   margin-top: -10px;
   color: var(--stroke-color);
+  cursor: pointer;
 }
 .footerborder {
   border-top: 1px solid var(--stroke-color);
@@ -523,6 +525,7 @@ section h2 {
 .lastone .left img {
   width: 100%;
   fill-rule: var(--gradient-color);
+  cursor: pointer;
 }
 .change-my-color {
   fill: #d65b5b;
@@ -564,6 +567,7 @@ section h2 {
   border-radius: 8px;
   border: 2px solid var(--gradient-color);
   color: var(--gradient-color);
+  cursor: pointer;
 }
 .lastone .left {
   display: flex;
@@ -596,5 +600,6 @@ section h2 {
 .news .image img {
   border: 2px solid #3e3e3e;
   border-radius: 8px;
+  cursor: pointer;
 }
 /* News */
