@@ -150,6 +150,32 @@ section h2 {
   background-color: red;
   padding: 20px;
 } */
+.banner-card {
+  position: relative;
+}
+.banner-card img {
+  height: 288px;
+  width: 288px;
+  left: 330px;
+  top: 2px;
+  border-radius: 8px;
+  height: auto;
+}
+.banner-text {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.banner-text h4 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 .swiper-slide img {
   height: 288px;
   width: 250px;

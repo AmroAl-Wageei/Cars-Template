@@ -53,11 +53,10 @@
 // </section> -->
 
 const swiperr = new Swiper(".swiper", {
-  speed: 1000,
-  spaceBetween: -50,
+  speed: 700,
+  spaceBetween: -20,
   slidesPerView: 5,
-  loop: true,
-  centeredSlide: "true",
+  centerSlide: "true",
   fade: "true",
   grabCursor: "true",
   pagination: {
@@ -71,7 +70,7 @@ const swiperr = new Swiper(".swiper", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 0,
+      slidesPerView: 1,
     },
     522: {
       slidesPerView: 1,
@@ -81,7 +80,7 @@ const swiperr = new Swiper(".swiper", {
     },
 
     1050: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     1400: {
       slidesPerView: 4,
