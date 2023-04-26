@@ -57,7 +57,7 @@ const swiperr = new Swiper(".swiper", {
   spaceBetween: -50,
   slidesPerView: 5,
   loop: true,
-  centerSlide: "true",
+  centeredSlide: "true",
   fade: "true",
   grabCursor: "true",
   pagination: {
@@ -81,7 +81,7 @@ const swiperr = new Swiper(".swiper", {
     },
 
     1050: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     1400: {
       slidesPerView: 4,
