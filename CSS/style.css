@@ -637,17 +637,17 @@ header .search {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    background-color: var(--background-color);
   }
   .navbar ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
+    background-color: var(--background-color);
   }
 
   .navbar li {
-    margin: 10px 0;
+    margin: 20px 0;
   }
   .hero-image .content {
     display: flex;
@@ -761,3 +761,4 @@ button:hover {
   cursor: pointer;
   margin-right: 150px;
 }
+
