@@ -619,7 +619,6 @@ section h2 {
   color: rgba(241, 241, 241, 1);
   border: 2px solid rgba(120, 120, 120, 1);
   margin-bottom: 50px;
-
 }
 .maincontent h3 {
   font-family: Almarai;
@@ -640,8 +639,17 @@ section h2 {
   text-align: right;
   color: #d5d5d5;
   margin-bottom: 50px;
-
 }
+/* Change the color of the next and previous buttons */
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+  color: var(--gradient-color) !important;
+}
+.swiper-pagination-bullet {
+  color: var(--gradient-color);
+}
+
 /* News */
 /* 
 header {
