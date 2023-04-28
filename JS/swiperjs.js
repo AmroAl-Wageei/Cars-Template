@@ -60,15 +60,7 @@ const swiper = new Swiper(".swiper", {
   centerSlide: "true",
   fade: "true",
   grabCursor: "true",
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+
   breakpoints: {
     0: {
       slidesPerView: 0,
@@ -86,5 +78,24 @@ const swiper = new Swiper(".swiper", {
     1400: {
       slidesPerView: 4,
     },
+  },
+});
+
+var swiper2 = new Swiper(".mySwiper2", {
+  spaceBetween: 30,
+  centeredSlides: true,
+  fade: "true",
+  grabCursor: "true",
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });

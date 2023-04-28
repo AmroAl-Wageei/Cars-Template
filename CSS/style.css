@@ -548,6 +548,32 @@ section h2 {
   border-top: 100px solid var(--stroke-color);
   border-left: 100px solid var(--stroke-color); */
 }
+@media (max-width: 1000px) {
+  .lastone {
+    height: 950px;
+    border: 2px solid #d65b5b;
+  }
+  .lastone .right {
+    margin-top: 10px;
+  }
+  .lastone .left {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .lastone .right .lorem h3 {
+    font-size: 48px;
+  }
+  .lastone .right p {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .lastone {
+    height: 850px;
+    border: 2px solid #d65b5b;
+  }
+}
 /* lastone */
 
 /* News */
@@ -570,6 +596,51 @@ section h2 {
   border: 2px solid #3e3e3e;
   border-radius: 8px;
   cursor: pointer;
+  width: 450px;
+  height: 450px;
+}
+.news .content {
+  margin-top: 20px;
+}
+.maincontent {
+  /* background-color: #dcdcdc; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  padding: 20px 70px;
+}
+.maincontent button {
+  height: 69px;
+  width: 445px;
+  border-radius: 8px;
+  background: linear-gradient(0deg, #363434, #363434),
+    linear-gradient(0deg, #787878, #787878);
+  color: rgba(241, 241, 241, 1);
+  border: 2px solid rgba(120, 120, 120, 1);
+  margin-bottom: 50px;
+
+}
+.maincontent h3 {
+  font-family: Almarai;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(241, 241, 241, 1);
+  margin-bottom: 50px;
+}
+.maincontent p {
+  font-family: Cairo;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #d5d5d5;
+  margin-bottom: 50px;
+
 }
 /* News */
 /* 
@@ -662,6 +733,21 @@ header .search {
   } */
   .hero-image .content div {
     margin-bottom: 10px;
+  }
+  /* .hero-image .social {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    color: white;
+  } */
+  .hero-image .social div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 30px;
   }
 }
 
@@ -761,4 +847,3 @@ button:hover {
   cursor: pointer;
   margin-right: 150px;
 }
-

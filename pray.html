@@ -9,6 +9,12 @@
     <!-- Font Awsome Library -->
     <link rel="stylesheet" href="./CSS/all.min.css" />
     <!-- Font Awsome Library -->
+    <!-- Link Swiper's CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -45,19 +51,47 @@
         </div>
 
         <div class="social">
-          <div>
+          <div class="icon">
             <a href="#"> <i class="fa-brands fa-instagram"></i></a>
           </div>
-          <div>
-            <a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+          <div class="icon">
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
           </div>
-          <div>
-            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+          <div class="icon">
+            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
       </div>
     </header>
+    <section>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1>Amro</h1>
+          </div>
+          <div class="swiper-slide">
+            <h1>Ahmad</h1>
+          </div>
+          <div class="swiper-slide">
+            <h1>Raneem</h1>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- <section>
+      <h1>Amroooooo</h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi excepturi voluptatibus laudantium repudiandae deserunt nemo officia deleniti omnis quos.</p>
+    </section> -->
   </body>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./JS/test.js"></script>
+
   <script>
     const menubtn = document.querySelector(".menu-btnn");
     const navLinks = document.querySelector(".nav-links");
