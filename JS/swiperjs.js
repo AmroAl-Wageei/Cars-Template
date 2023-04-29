@@ -82,20 +82,47 @@ const swiper = new Swiper(".swiper", {
 });
 
 var swiper2 = new Swiper(".mySwiper2", {
-  spaceBetween: 30,
+  spaceBetween: 0,
   centeredSlides: true,
-  fade: "true",
   grabCursor: "true",
   autoplay: {
-    delay: 1000,
+    delay: 2000,
     disableOnInteraction: false,
   },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper3 = new Swiper(".mySwiper3", {
+  effect: "flip",
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
   },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+});
+
+var swiper1 = new Swiper(".swiper1", {
+  effect: "flip",
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+var swiper2 = new Swiper(".swiper2", {
+  // add your swiper options here
 });

@@ -585,6 +585,12 @@ section h2 {
   margin: 10px auto;
   background: #151515;
 }
+.news .left {
+  background-color: white;
+}
+.news .right {
+  background-color: var(--gradient-color);
+}
 .news .image {
   width: 100%;
   height: 100%;
@@ -608,6 +614,7 @@ section h2 {
   flex-direction: column;
   justify-content: space-around;
   height: 400px;
+  width: 100%;
   padding: 20px 70px;
 }
 .maincontent button {
@@ -619,6 +626,7 @@ section h2 {
   color: rgba(241, 241, 241, 1);
   border: 2px solid rgba(120, 120, 120, 1);
   margin-bottom: 50px;
+  cursor: pointer;
 }
 .maincontent h3 {
   font-family: Almarai;
@@ -646,9 +654,9 @@ section h2 {
 .swiper-pagination {
   color: var(--gradient-color) !important;
 }
-.swiper-pagination-bullet {
+/* .swiper-pagination-bullet {
   color: var(--gradient-color);
-}
+} */
 
 /* News */
 /* 

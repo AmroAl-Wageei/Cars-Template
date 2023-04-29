@@ -45,22 +45,22 @@
 
 
 // swiper cards
-var swiper = new Swiper(".mySwiper2", {
-    slidesPerView: 1,
-    spaceBetween: 100,
-    breakpoints: {
-      640: {
-        slidesPerView: 1,
-        spaceBetween: 50,
-      },
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 2,
-        spaceBetween: 50,
-      },
-    },
-  });
+// var swiper = new Swiper(".mySwiper2", {
+//     slidesPerView: 1,
+//     spaceBetween: 100,
+//     breakpoints: {
+//       640: {
+//         slidesPerView: 1,
+//         spaceBetween: 50,
+//       },
+//       768: {
+//         slidesPerView: 1,
+//         spaceBetween: 40,
+//       },
+//       1024: {
+//         slidesPerView: 2,
+//         spaceBetween: 50,
+//       },
+//     },
+//   });
   
